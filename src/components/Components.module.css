@@ -1,0 +1,115 @@
+.reviewsContainer {
+    margin-top: 30px;
+  }
+  .reviewsAuthor {
+    font-size: 20px;
+    font-weight: 600;
+  }
+  
+  .reviewsContent {
+    margin-top: 20px;
+    font-size: 18px;
+  }
+  
+  .reviewsList {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  .goBackBtn {
+    border-radius: 4px;
+    border: transparent;
+    cursor: pointer;
+    padding: 10px;
+    color: black;
+  }
+  .goBackBtn:hover,
+  .goBackBtn:focus {
+    background-color: darkslategrey;
+    color: white;
+  }
+  
+  .goBackBtnIcon {
+    fill: black
+  }
+  .container {
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 0 16px;
+  }
+  
+  .header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 12px;
+    padding: 8px 0;
+    margin-bottom: 16px;
+    border-bottom: 1px solid black;
+  }
+  
+  .item {
+    padding: 8px 16px;
+    border-radius: 4px;
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+  }
+  
+  .list {
+    display: flex;
+  }
+  .moviesList {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .moviesListTitle {
+    font-size: 18px;
+    font-weight: 600;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #000000;
+    margin-top: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .moviesListItem {
+    display: flex;
+    justify-content: center;
+    flex-basis: calc((100% - 40px) / 4);
+    width: 100%;
+    border-radius: 5px;
+    padding: 5px;
+  }
+  
+  .moviesListLink {
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .moviesListImg {
+    border-radius: 5px;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  .castContainer {
+    margin-top: 30px;
+  }
+  
+  .castList {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 15px;
+  }
+  
+  .castItem {
+    width: 100px;
+    height: 100%;
+  }
+  
+  .castImage {
+    object-fit: cover;
+  }

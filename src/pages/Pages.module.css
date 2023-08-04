@@ -1,0 +1,78 @@
+.movieDetailsContainer {
+    display: flex;
+    gap: 30px;
+    justify-content: space-evenly;
+  }
+  .movieDetailsImg {
+    border-radius: 4px;
+  }
+  
+  .movieOwerview {
+    padding-top: 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    flex-basis: 600px;
+  }
+  
+  .movieDetailsTitle {
+    margin-bottom: 20px;
+  }
+  
+  .movieDetailsSubTitle {
+    margin-bottom: 30px;
+  }
+  
+  .movieDetailsText {
+    font-size: 20px;
+    font-weight: 400;
+  }
+  
+  .movieDetailsLincsList {
+    display: flex;
+    gap: 20px;
+  }
+  
+  .movieDetailsLincs {
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 600;
+    color: inherit;
+    padding: 8px 16px;
+    border-radius: 4px;
+  }
+  
+  .movieDetailsLincs:focus,
+  .movieDetailsLincs:hover {
+    background-color: darkslategrey;
+    color: white;
+  }
+
+  .moviesForm {
+    display: flex;
+    gap: 10px;
+  }
+  .moviesInput {
+    padding: 10px;
+    border-radius: 4px;
+    border: transparent;
+    min-width: 300px;
+  }
+  
+  .moviesBtn {
+    padding: 10px;
+    border-radius: 4px;
+    border: transparent;
+    cursor: pointer;
+    background-color: white;
+    color: black;
+    font-family: inherit;
+    font-size: 16px;
+    font-weight: 500;
+  }
+  
+  .moviesBtn:hover,
+  .moviesBtn:focus {
+    background-color: darkslategrey;
+    color: white;
+  }
